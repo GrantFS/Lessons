@@ -1,0 +1,39 @@
+# HTML Tags
+
+HTML tags are element names surrounded by angle brackets. <p>
+HTML tags normally come in pairs like <p> and </p>
+
+The first tag in a pair is the start tag, 
+The second tag is the end tag.
+
+The end tag is written like the start tag, but with a forward slash inserted before the tag name
+
+# HTML elements
+
+An HTML element usually consists of a start tag and an end tag, with the content inserted in between:
+
+# Examples
+
+The <!DOCTYPE> declaration must be the very first thing in your HTML document, before the <html> tag.
+The <!DOCTYPE> declaration is not an HTML tag; it is an instruction to the web browser about what version of HTML the page is written in.
+
+The <head> tag contains metadata 
+(document title, character set, styles, links, scripts), 
+specific information about the web page that is not displayed to the user. 
+
+# Metadata
+
+Metadata provides browsers and search engines with technical information about the web page.
+
+
+The <body> tag defines the document's body. 
+The <body> element contains all the contents of an HTML document, such as text, hyperlinks, images, tables, lists, etc
+
+
+The <footer> element is a structural element used to identify the footer of a page, 
+document, article, or section. A <footer> typically contains copyright and authorship information 
+or navigational elements pertaining to the contents of the parent element
+
+# References
+
+https://www.w3schools.com/tags/ref_byfunc.asp
