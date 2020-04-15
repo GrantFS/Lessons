@@ -1,0 +1,41 @@
+{
+    "files.autoSave": "onFocusChange",
+    "editor.fontSize": 13,
+    "editor.fontFamily": "Sathu, Menlo, Monaco, 'Courier New', monospace",
+    "explorer.openEditors.visible": 0,
+    "editor.minimap.enabled": false,
+    "editor.tabCompletion": "on",
+    "emmet.triggerExpansionOnTab": true,
+    "window.openFilesInNewWindow": "on",
+    "terminal.integrated.experimentalUseTitleEvent": true,
+    "terminal.integrated.fontFamily": "Menlo",
+    "auto-close-tag.SublimeText3Mode": true,
+    "beautify.language": {
+        "js": {
+            "type": [
+                "javascript",
+                "json",
+                "jsonc"
+            ],
+            "filename": [
+                ".jshintrc",
+                ".jsbeautifyrc"
+            ]
+        },
+        "css": [
+            "css",
+            "scss"
+        ],
+        "html": [
+            "htm",
+            "html",
+            "blade"
+        ]
+    },
+    "explorer.autoReveal": false,
+    "workbench.iconTheme": "vscode-icons",
+    "window.zoomLevel": 1,
+    "vsicons.dontShowNewVersionMessage": true,
+    "diffEditor.ignoreTrimWhitespace": false,
+    "workbench.editor.enablePreviewFromQuickOpen": false
+}
