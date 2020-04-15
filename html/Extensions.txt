@@ -1,0 +1,10 @@
+advanced-new-file                 patbenatar
+Auto Close Tag                  Jun Han
+Auto Save on Window Change      Yuril Zaporozhchenko
+Beautify                        HookyQR
+change-case                     wmaurer
+Duplicate Selection                Greg Becchus
+ESlint                          Dirk Baeumer
+File Utils                       Steffen Leistner
+JS-CSS-HTML formater            lonefy
+vscode-icons                   VSCode Icons Team
