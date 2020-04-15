@@ -1,6 +1,11 @@
+Using the Extensions.txt file
+
+1. Install the Extensions in VS Code
+
+
 Using the template index.html
 
-1. Fill in the head data, this can be anything you wish.
+2. Fill in the head data, this can be anything you wish.
 
 i.e. 
 
@@ -9,7 +14,7 @@ i.e.
 
 Using the template index.html, and the notes.txt files
 
-2. Create a pritty version of this information.
+3. Create a pritty version of this information.
 
 i.e.
 
