@@ -1,0 +1,64 @@
+The DIV tag defines a division or a section in an HTML document.
+The DIV element is often used as a container for other HTML elements to style them with CSS or to perform certain tasks with JavaScript.
+
+# Colors
+
+Hexadecimal colors - #0d47a1
+RGB colors - rgb(255, 0, 0)  = rgb(red, green, blue)
+RGBA colors - rgb(255, 0, 0, 0.3)  = rgb(red, green, blue, alpha) - alpha specifies the opacity
+HSL colors - hsl(120, 100%, 50%) - hsl(hue, saturation, lightness)
+HSLA colors - hsl(120, 100%, 50%, 0.3) - hsl(hue, saturation, lightness, alpha)
+Predefined/Cross-browser color names - blue
+
+# CSS
+
+## Display
+The display property specifies the display behavior (the type of rendering box) of an element.
+
+display: block; - Displays an element as a block element (like <p>). It starts on a new line, and takes up the whole width
+display: inline-block; - will put any element with inline-block next to each other
+
+There are many others but we will explore those later.
+
+## Color
+The color property will change the color of the font.
+
+## Background-color
+The background-color property will change the background colour.
+
+## Font-size
+The font-size property will change the font size.
+
+This can be in 
+px (pixels) - goes up in 1
+em - Relative to the font-size of the element and goes up in .1
+rem - Relative to font-size of the root element and goes up in .1
+% - Relative to the parent element
+
+There are many others such as mm, cm, vw
+
+## Text-align
+The text-align property will change where in the element the font will align.
+right / left / center
+
+## Border
+The border property creates a border around the element.
+border: thickness type color
+border: 1px solid black;
+
+You can also just create top/bottom/left/right
+border-top: 1px solid black;
+
+## Border Radius
+This property allows you to add rounded corners to elements
+
+## Padding
+This is used to generate space around an element's content, inside of any defined borders.
+
+## Box Shadow
+This attaches one or more shadows to an element.
+
+# Reference
+
+All css properties (there are a lot of these)
+https://www.w3schools.com/cssref/default.asp
