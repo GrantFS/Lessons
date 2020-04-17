@@ -1,0 +1,4 @@
+1. Add class title to all h3 tags
+2. Add class box or box_shadow to div tags
+3. Play around with different ways to make the page look pretty.
+
