@@ -13,17 +13,17 @@ h2 {
 }
 
 .title {
-    /* color: #107fee; */
+    color: #107fee;
 }
 
 div.box {
-    /* border: 1px solid #8795A3;
-    border-radius: 4px; */
+    border: 1px solid #8795A3;
+    border-radius: 4px;
 }
 
 div.box_shadow {
-    /* box-shadow: 0 4px 6px 0 rgba(0, 0, 0, 0.2);
+    box-shadow: 0 4px 6px 0 rgba(0, 0, 0, 0.2);
     border: 1px solid #eaedef;
     border-radius: 4px;
-    padding: 5px 15px; */
+    padding: 5px 15px;
 }
