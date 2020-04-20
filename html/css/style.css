@@ -9,7 +9,11 @@ h1 {
 }
 
 h2 {
-    /* color: #0d47a1; */
+    color: #0d47a1;
+}
+
+small {
+    color: darkorange;
 }
 
 .title {

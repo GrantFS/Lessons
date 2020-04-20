@@ -1,0 +1,21 @@
+# Bootstrap versions
+
+Bootstrap 3 works in a smiliar way to Bootstrap 4.
+
+Differences:
+There is no col- this is col-xs-
+There is no col-lg
+
+So the devices work as
+
+col-xs - Mobile
+col-sm - Tablet
+col-md - Laptop
+col-lg - Retina Laptop
+
+This has many drawbacks as devices now have higher pixels hence the change in bootstrap 3 to bootstrap 4
+
+References
+
+https://getbootstrap.com/docs/3.3/
+https://getbootstrap.com/docs/4.0/
