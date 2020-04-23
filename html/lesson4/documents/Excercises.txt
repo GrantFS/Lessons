@@ -1,1 +1,3 @@
 1. Using the different typography format the page1.html document - use the link at the bottom of the index page
+- Don't forget to add the rows and cols
+- Use both <h2> and <div class="h2"> 
