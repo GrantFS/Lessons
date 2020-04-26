@@ -1,0 +1,4 @@
+1. Add <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script> to the head tags
+2. Add <script type="text/javascript" src="app.js"></script> to the bottom of the body tags
+- If the above is correct you will get a message when you load the page.
+3. Move the alert code into a function

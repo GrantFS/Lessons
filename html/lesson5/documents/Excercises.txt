@@ -1,2 +1,2 @@
-1. Change the footer links into buttons
-2. Change the 
+1. Play around with the different components
+2. Change the footer links into buttons
