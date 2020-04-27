@@ -40,10 +40,605 @@
         <div class="container">
             <div class="row">
                 <div class="col">
+                    <p>
+                        A card is a flexible and extensible content container.
+                    </p>
+                </div>
+            </div>
+            <div class="row">
+                <div class="col">
+                    <div class="card mb-3" style="width: 18rem;">
+                        <img class="card-img-top" src="https://dummyimage.com/286x180/000/fff&text=Example+image" alt="Card image cap">
+                        <div class="card-body">
+                            <h5 class="card-title">
+                                Card title
+                            </h5>
+                            <p class="card-text">
+                                Some quick example text to build on the card title and make up the bulk of the card's content.
+                            </p>
+                            <a href="#" class="btn btn-primary">
+                                Go somewhere
+                            </a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="row">
+                <div class="col-12">
+                    <h5>
+                        Body
+                    </h5>
+                </div>
+                <div class="col-12 col-lg-6">
+                    <code>
+                        <div class="card">
+                            <div class="card-body">
+                              This is some text within a card body.
+                            </div>
+                          </div>
+                    </code>
+                </div>
+                <div class="col-12 col-lg-6">
+                    <p>
+                        The building block of a card is the <strong>.card-body</strong>. Use it whenever you need a padded section within a card.
+                    </p>
+                </div>
 
+            </div>
+            <br>
+            <div class="row">
+                <div class="col-12">
+                    <h5>
+                        Titles, text, and links
+                    </h5>
+                </div>
+                <div class="col-12 col-lg-6">
+                    <div class="card" style="width: 18rem;">
+                        <div class="card-body">
+                            <h5 class="card-title">
+                                Card title
+                            </h5>
+                            <h6 class="card-subtitle mb-2 text-muted">
+                                Card subtitle
+                            </h6>
+                            <p class="card-text">
+                                Some quick example text to build on the card title and make up the bulk of the card's content.
+                            </p>
+                            <a href="#" class="card-link">
+                                Card link
+                            </a>
+                            <a href="#" class="card-link">
+                                Another link
+                            </a>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-12 col-lg-6">
+                    <p>
+                        Card titles are used by adding <strong>.card-title</strong> to a <strong>&lt;h*&gt;</strong> tag.
+                    </p>
+
+                    <p>
+                        Subtitles are used by adding a <strong>.card-subtitle</strong> to a <strong>&lt;h*&gt;</strong> tag.
+                    </p>
+                    <p>
+                        Text can be added to the card with <strong>.card-text</strong>.
+                    </p>
+                    <p>
+                        In the same way, links are added and placed next to each other by adding <strong>.card-link</strong> to an <strong>&lt;a&gt;</strong> tag.
+                    </p>
+                </div>
+            </div>
+            <br>
+            <div class="row">
+                <div class="col-12">
+                    <h5>
+                        Images
+                    </h5>
+                </div>
+                <div class="col-12 col-lg-6">
+                    <div class="card" style="width: 18rem;">
+                        <img class="card-img-top" src="https://dummyimage.com/286x180/000/fff&text=Example+image" alt="Card image cap">
+                        <div class="card-body">
+                            <p class="card-text">
+                                Some quick example text to build on the card title and make up the bulk of the card's content.
+                            </p>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-12 col-lg-6">
+                    <p>
+                        <strong>.card-img-top</strong> places an image to the top of the card.
+                    </p>
+                </div>
+            </div>
+            <br>
+            <div class="row">
+                <div class="col-12">
+                    <h5>
+                        List Groups
+                    </h5>
+                </div>
+                <div class="col-12 col-lg-6">
+                    <div class="card" style="width: 18rem;">
+                        <div class="card-header">
+                            Featured
+                        </div>
+                        <ul class="list-group list-group-flush">
+                            <li class="list-group-item">
+                                List Item 1
+                            </li>
+                            <li class="list-group-item">
+                                List Item 2
+                            </li>
+                            <li class="list-group-item">
+                                List Item 3
+                            </li>
+                        </ul>
+                    </div>
+                </div>
+                <div class="col-12 col-lg-6">
+                    <p>
+                        Create lists of content in a card with a flush list group.
+                    </p>
+                </div>
+            </div>
+            <br>
+            <div class="row">
+                <div class="col-12">
+                    <h5>
+                        Header and Footer
+                    </h5>
+                </div>
+                <div class="col-12 col-lg-6">
+                    <div class="card">
+                        <h5 class="card-header">
+                            Featured
+                        </h5>
+                        <div class="card-body">
+                            <h5 class="card-title">
+                                Special title treatment
+                            </h5>
+                            <p class="card-text">
+                                With supporting text below as a natural lead-in to additional content.
+                            </p>
+                            <a href="#" class="btn btn-primary">
+                                Go somewhere
+                            </a>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-12 col-lg-6">
+                    <p>
+                        Add an optional header and/or footer within a card.
+                    </p>
+                    <p>
+                        Card headers can be styled by adding .card-header to <strong>&lt;h*&gt;</strong> elements.
+                    </p>
+                </div>
+            </div>
+            <br>
+            <div class="row">
+                <div class="col-12">
+                    <h5>
+                        Background and color
+                    </h5>
+                </div>
+                <div class="col-12">
+                    <div class="card-deck">
+                        <div class="card text-white bg-primary mb-3">
+                            <div class="card-header">
+                                .bg-primary
+                            </div>
+                            <div class="card-body">
+                                <h5 class="card-title">
+                                    Primary
+                                </h5>
+                                <p class="card-text">
+                                    Some quick example text to build on the card title and make up the bulk of the card's content.
+                                </p>
+                            </div>
+                        </div>
+                        <div class="card text-white bg-secondary mb-3">
+                            <div class="card-header">
+                                .bg-secondary
+                            </div>
+                            <div class="card-body">
+                                <h5 class="card-title">
+                                    Secondary
+                                </h5>
+                                <p class="card-text">
+                                    Some quick example text to build on the card title and make up the bulk of the card's content.
+                                </p>
+                            </div>
+                        </div>
+                        <div class="card text-white bg-success mb-3">
+                            <div class="card-header">
+                                .bg-success
+                            </div>
+                            <div class="card-body">
+                                <h5 class="card-title">
+                                    Success
+                                </h5>
+                                <p class="card-text">
+                                    Some quick example text to build on the card title and make up the bulk of the card's content.
+                                </p>
+                            </div>
+                        </div>
+                        <div class="card text-white bg-danger mb-3">
+                            <div class="card-header">
+                                .bg-danger
+                            </div>
+                            <div class="card-body">
+                                <h5 class="card-title">
+                                    Danger
+                                </h5>
+                                <p class="card-text">
+                                    Some quick example text to build on the card title and make up the bulk of the card's content.
+                                </p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-12">
+                    <div class="card-deck">
+                        <div class="card text-white bg-warning mb-3">
+                            <div class="card-header">
+                                .bg-warning
+                            </div>
+                            <div class="card-body">
+                                <h5 class="card-title">
+                                    Warning
+                                </h5>
+                                <p class="card-text">
+                                    Some quick example text to build on the card title and make up the bulk of the card's content.
+                                </p>
+                            </div>
+                        </div>
+                        <div class="card text-white bg-info mb-3">
+                            <div class="card-header">
+                                .bg.info
+                            </div>
+                            <div class="card-body">
+                                <h5 class="card-title">
+                                    Info
+                                </h5>
+                                <p class="card-text">
+                                    Some quick example text to build on the card title and make up the bulk of the card's content.
+                                </p>
+                            </div>
+                        </div>
+                        <div class="card bg-light mb-3">
+                            <div class="card-header">
+                                .bg-light
+                            </div>
+                            <div class="card-body">
+                                <h5 class="card-title">
+                                    Light
+                                </h5>
+                                <p class="card-text">
+                                    Some quick example text to build on the card title and make up the bulk of the card's content.
+                                </p>
+                            </div>
+                        </div>
+                        <div class="card text-white bg-dark mb-3">
+                            <div class="card-header">
+                                .bg-dark
+                            </div>
+                            <div class="card-body">
+                                <h5 class="card-title">
+                                    Dark
+                                </h5>
+                                <p class="card-text">
+                                    Some quick example text to build on the card title and make up the bulk of the card's content.
+                                </p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <br>
+            <div class="row">
+                <div class="col-12">
+                    <h2>
+                        Borders
+                    </h2>
+                </div>
+            </div>
+            <div class="row">
+                <div class="col-12">
+                    <div class="card-deck">
+                        <div class="card border-primary mb-3">
+                            <div class="card-header bg-primary text-white">
+                                .border-primary
+                            </div>
+                            <div class="card-body">
+                                <h5 class="card-title">
+                                    Primary
+                                </h5>
+                                <p class="card-text">
+                                    Some quick example text to build on the card title and make up the bulk of the card's content.
+                                </p>
+                            </div>
+                        </div>
+                        <div class="card border-secondary mb-3">
+                            <div class="card-header bg-secondary text-light">
+                                .border-secondary
+                            </div>
+                            <div class="card-body">
+                                <h5 class="card-title">
+                                    Secondary
+                                </h5>
+                                <p class="card-text">
+                                    Some quick example text to build on the card title and make up the bulk of the card's content.
+                                </p>
+                            </div>
+                        </div>
+                        <div class="card border-success mb-3">
+                            <div class="card-header bg-success text-light">
+                                .border-success
+                            </div>
+                            <div class="card-body">
+                                <h5 class="card-title">
+                                    Success
+                                </h5>
+                                <p class="card-text">
+                                    Some quick example text to build on the card title and make up the bulk of the card's content.
+                                </p>
+                            </div>
+                        </div>
+                        <div class="card border-danger mb-3">
+                            <div class="card-header bg-danger text-light">
+                                .border-danger
+                            </div>
+                            <div class="card-body">
+                                <h5 class="card-title">
+                                    Danger
+                                </h5>
+                                <p class="card-text">
+                                    Some quick example text to build on the card title and make up the bulk of the card's content.
+                                </p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-12">
+                    <div class="card-deck">
+                        <div class="card border-warning mb-3">
+                            <div class="card-header bg-warning">
+                                .border-warning
+                            </div>
+                            <div class="card-body text-warning">
+                                <h5 class="card-title">
+                                    Warning
+                                </h5>
+                                <p class="card-text">
+                                    Some quick example text to build on the card title and make up the bulk of the card's content.
+                                </p>
+                            </div>
+                        </div>
+                        <div class="card border-info mb-3">
+                            <div class="card-header bg-info text-light">
+                                .border-info
+                            </div>
+                            <div class="card-body">
+                                <h5 class="card-title">
+                                    Info
+                                </h5>
+                                <p class="card-text">
+                                    Some quick example text to build on the card title and make up the bulk of the card's content.
+                                </p>
+                            </div>
+                        </div>
+                        <div class="card border-light mb-3">
+                            <div class="card-header bg-light">
+                                .border-light
+                            </div>
+                            <div class="card-body">
+                                <h5 class="card-title">
+                                    Light
+                                </h5>
+                                <p class="card-text">
+                                    Some quick example text to build on the card title and make up the bulk of the card's content.
+                                </p>
+                            </div>
+                        </div>
+                        <div class="card border-dark mb-3">
+                            <div class="card-header bg-dark text-light">
+                                .border-dark
+                            </div>
+                            <div class="card-body">
+                                <h5 class="card-title">
+                                    Dark
+                                </h5>
+                                <p class="card-text">
+                                    Some quick example text to build on the card title and make up the bulk of the card's content.
+                                </p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <br>
+            <div class="row">
+                <div class="col">
+                    <h2>
+                        Card Group
+                    </h2>
+                    <p>
+                        Use card groups to render cards with equal width and height columns.
+                    </p>
+                </div>
+            </div>
+            <div class="row">
+                <div class="col-12">
+                    <div class="card-group mb-3">
+                        <div class="card">
+                            <img class="card-img-top" src="https://dummyimage.com/286x180/000/fff&text=Example+image" alt="Card image cap">
+                            <div class="card-body">
+                                <h5 class="card-title">
+                                    Card title
+                                </h5>
+                                <p class="card-text">
+                                    This is a wider card with supporting text below as a natural lead-in to additional content. This content is a little bit longer.
+                                </p>
+                                <p class="card-text">
+                                    <small class="text-muted">Last updated 3 mins ago</small>
+                                </p>
+                            </div>
+                        </div>
+                        <div class="card">
+                            <img class="card-img-top" src="https://dummyimage.com/286x180/000/fff&text=Example+image" alt="Card image cap">
+                            <div class="card-body">
+                                <h5 class="card-title">
+                                    Card title
+                                </h5>
+                                <p class="card-text">
+                                    This card has supporting text below as a natural lead-in to additional content.
+                                </p>
+                                <p class="card-text">
+                                    <small class="text-muted">Last updated 3 mins ago</small>
+                                </p>
+                            </div>
+                        </div>
+                        <div class="card">
+                            <img class="card-img-top" src="https://dummyimage.com/286x180/000/fff&text=Example+image" alt="Card image cap">
+                            <div class="card-body">
+                                <h5 class="card-title">
+                                    Card title
+                                </h5>
+                                <p class="card-text">
+                                    This is a wider card with supporting text below as a natural lead-in to additional content. This card has even longer content than the first to show that equal height action.
+                                </p>
+                                <p class="card-text">
+                                    <small class="text-muted">Last updated 3 mins ago</small>
+                                </p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="row">
+                <div class="col-12">
+                    <p>
+                        When using card groups with footers, their content will automatically line up.
+                    </p>
+                </div>
+            </div>
+            <div class="row">
+                <div class="col-12">
+                    <div class="card-group mb-3">
+                        <div class="card">
+                            <img class="card-img-top" src="https://dummyimage.com/286x180/000/fff&text=Example+image" alt="Card image cap">
+                            <div class="card-body">
+                                <h5 class="card-title">
+                                    Card title
+                                </h5>
+                                <p class="card-text">
+                                    This is a wider card with supporting text below as a natural lead-in to additional content. This content is a little bit longer.
+                                </p>
+                            </div>
+                            <div class="card-footer">
+                                <small class="text-muted">Last updated 3 mins ago</small>
+                            </div>
+                        </div>
+                        <div class="card">
+                            <img class="card-img-top" src="https://dummyimage.com/286x180/000/fff&text=Example+image" alt="Card image cap">
+                            <div class="card-body">
+                                <h5 class="card-title">
+                                    Card title
+                                </h5>
+                                <p class="card-text">
+                                    This card has supporting text below as a natural lead-in to additional content.
+                                </p>
+                            </div>
+                            <div class="card-footer">
+                                <small class="text-muted">Last updated 3 mins ago</small>
+                            </div>
+                        </div>
+                        <div class="card">
+                            <img class="card-img-top" src="https://dummyimage.com/286x180/000/fff&text=Example+image" alt="Card image cap">
+                            <div class="card-body">
+                                <h5 class="card-title">
+                                    Card title
+                                </h5>
+                                <p class="card-text">
+                                    This is a wider card with supporting text below as a natural lead-in to additional content. This card has even longer content than the first to show that equal height action.
+                                </p>
+                            </div>
+                            <div class="card-footer">
+                                <small class="text-muted">Last updated 3 mins ago</small>
+                            </div>
+                        </div>
+                    </div>
                 </div>
             </div>
 
+
+
+            <div class="row">
+                <div class="col">
+                    <h2>
+                        Card Deck
+                    </h2>
+                    <p>
+                        Use card decks for cards with equal width and height cards that aren’t attached to one another
+                    </p>
+                    <ul>
+                        <li>
+                            Just like with card groups, card footers in decks will automatically line up.
+                        </li>
+                    </ul>
+                </div>
+            </div>
+            <div class="row">
+                <div class="col-12">
+                    <div class="card-deck">
+                        <div class="card">
+                            <img class="card-img-top" src="https://dummyimage.com/286x180/000/fff&text=Example+image" alt="Card image cap">
+                            <div class="card-body">
+                                <h5 class="card-title">
+                                    Card title
+                                </h5>
+                                <p class="card-text">
+                                    Some quick example text to build on the card title and make up the bulk of the card's content.
+                                </p>
+                                <a href="#" class="btn btn-primary">
+                                    Go somewhere
+                                </a>
+                            </div>
+                        </div>
+                        <div class="card">
+                            <img class="card-img-top" src="https://dummyimage.com/286x180/000/fff&text=Example+image" alt="Card image cap">
+                            <div class="card-body">
+                                <h5 class="card-title">
+                                    Card title
+                                </h5>
+                                <p class="card-text">
+                                    Some quick example text to build on the card title and make up the bulk of the card's content.
+                                </p>
+                                <a href="#" class="btn btn-primary">
+                                    Go somewhere
+                                </a>
+                            </div>
+                        </div>
+                        <div class="card">
+                            <img class="card-img-top" src="https://dummyimage.com/286x180/000/fff&text=Example+image" alt="Card image cap">
+                            <div class="card-body">
+                                <h5 class="card-title">
+                                    Card title
+                                </h5>
+                                <p class="card-text">
+                                    Some quick example text to build on the card title and make up the bulk of the card's content.
+                                </p>
+                                <a href="#" class="btn btn-primary">
+                                    Go somewhere
+                                </a>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
         </div>
     </main>
     <hr>
